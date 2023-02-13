@@ -15,3 +15,7 @@ dotnet sln add AccountOwnerServer\AccountOwnerServer.csproj
 git add .
 git commit -m "Criação da estrutura de pastas, da solução e do projeto WebApi do backend"
 git push
+
+/* Criar um projeto de biblioteca de classe */
+/* Tem que estar na pasta backend */
+dotnet new classlib --name Contracts -f net6.0
